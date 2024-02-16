@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.Container{
+ box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+ background-color: #FFFF;
+ width: 36%;
+ height: 728;
+ border-radius: 40px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+}
+.Heading{
+ font-size: 32px;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 600;
+}
+.IFContainer{
+ width: 69%;
+ height: 336;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+.fname, .email, .password, .number{
+ font-size: 16px;
+ font-family: 'Poppins', sans-serif;
+ color: #4B5768;
+ width: 100%;
+ height: 72;
+ position: relative;
+}
+.nameTB, .emailTB, .pwTB, .numTB{
+ font-size: 16px;
+ font-family: 'Poppins', sans-serif;
+ background-color: #E7EAEE;
+ width: 100%;
+ height: 66%;
+ border-radius: 6px;
+ border: 0;
+}
+.BTContainer{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.SpBT{
+ font-family: 'Poppins', sans-serif;
+ font-weight: 600;
+ color: #FFFF;
+ background-color: #10B981;
+ width: 20rem;
+ height: 48;
+ border-radius: 35px;
+ border: 0;
+ transition: 0.5s;
+ cursor: pointer;
+}
+.SpBT:disabled{
+ background-color: #6EE7B7;
+ cursor: none;
+}
+.giSpContainer{
+ display: flex;
+ flex-direction: column;
+}
+.SpwgBT{
+ font-family: 'Poppins', sans-serif;
+ font-weight: 600;
+ background-color: #191D23;
+ color: #FFFF;
+ width: 20rem;
+ height: 48;
+ border-radius: 35px;
+ border: 0;
+ transition: 0.5s;
+ cursor: pointer;
+}
+
+.sp{
+ font-family: 'Poppins', sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 48;
+}
+.mgs{
+ font-family: 'Poppins', sans-serif;
+ display: flex;
+ flex-direction: row;
+
+}
+.question{
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400;
+}
+.Login{
+ font-family: 'Poppins', sans-serif;
+ font-weight: 600;
+ color: #10B981;
+ align-self: flex-end;
+}
+.picon{
+ position: absolute;
+ padding-top: 35px;
+ right: 15px;
+}
+.gicon{
+ position: absolute;
+ padding-left: 55px;
+  padding-top: 8px;
+}
+@media (max-width: 800px){
+ .Container{
+  width: 335;
+  height: 664;
+ }
+ .fname, .email, .password, .number, .nameTB, .emailTB, .pwTB, .numTB, .IFContainer, .SpwgBT, .SpBT{
+  width: 311;
+ }
+ .Heading{
+  font-size: 24px;
+ }
+ .gicon{
+  padding-left: 55px;
+  padding-top: 8px;
+ }
+}
+.SpBT:hover{
+ background-color: #096a49;
+ width: 21rem;
+ box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.SpwgBT:hover{
+ background-color: #000000;
+ width: 21rem;
+ box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.SpBT:disabled:hover{
+ background-color: #6EE7B7;
+ width: 20rem;
+}
